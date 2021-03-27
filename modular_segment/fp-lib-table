@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name 7_segment)(type KiCad)(uri ${KIPRJMOD}/7_segment.pretty)(options "")(descr ""))
+  (lib (name Andrew_van_dam_logo)(type KiCad)(uri ${KIPRJMOD}/Andrew_van_dam_logo.pretty)(options "")(descr ""))
+  (lib (name ESP32-SR-WROVER)(type KiCad)(uri ${KIPRJMOD}/ESP32-SR-WROVER.pretty)(options "")(descr ""))
+  (lib (name Button_Switch_SMD_modeled)(type KiCad)(uri ${KIPRJMOD}/Button_Switch_SMD_modeled)(options "")(descr ""))
+  (lib (name Rotary_Encoder)(type KiCad)(uri ${KIPRJMOD}/Rotary_Encoder.pretty)(options "")(descr ""))
+)

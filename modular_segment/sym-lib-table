@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 7_segment)(type Legacy)(uri ${KIPRJMOD}/7_segment.lib)(options "")(descr ""))
+  (lib (name Diodes_Incorporated)(type Legacy)(uri ${KIPRJMOD}/Diodes_Incorporated.lib)(options "")(descr ""))
+  (lib (name Andrew_van_dam_logo)(type Legacy)(uri ${KIPRJMOD}/Andrew_van_dam_logo.lib)(options "")(descr ""))
+)

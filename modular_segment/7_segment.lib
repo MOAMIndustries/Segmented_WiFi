@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 3_inch
+#
+DEF 3_inch D 0 40 Y Y 1 F N
+F0 "D" 50 550 50 H V C CNN
+F1 "3_inch" 150 -550 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.aliexpress.com/store/1769158?spm=a2g0o.detail.100005.1.35117007MVojnv" 50 -700 50 H I L BNN "Supplier"
+F5 "https://www.aliexpress.com/item/32743615692.html?spm=a2g0s.9042311.0.0.72fc4c4dyN2N3t" 50 -800 50 H I L BNN "Product"
+DRAW
+C 700 -250 25 0 0 0 N
+T 0 450 400 50 0 0 0 A Normal 0 C C
+T 0 650 200 50 0 0 0 B Normal 0 C C
+T 0 650 -100 50 0 0 0 C Normal 0 C C
+T 0 450 -300 50 0 0 0 D Normal 0 C C
+T 0 700 -350 50 0 0 0 DP Normal 0 C C
+T 0 250 -100 50 0 0 0 E Normal 0 C C
+T 0 250 200 50 0 0 0 F Normal 0 C C
+T 0 450 100 50 0 0 0 G Normal 0 C C
+S 0 500 800 -500 0 0 0 f
+P 2 0 0 0 300 -200 300 0 N
+P 2 0 0 0 300 100 300 300 N
+P 2 0 0 0 350 350 550 350 N
+P 2 0 0 0 550 -250 350 -250 N
+P 2 0 0 0 550 50 350 50 N
+P 2 0 0 0 600 0 600 -200 N
+P 2 0 0 0 600 300 600 100 N
+X G 1 -100 450 100 R 50 50 1 1 I
+X + 10 -100 -450 100 R 50 50 1 1 I
+X F 2 -100 350 100 R 50 50 1 1 I
+X DP 3 -100 250 100 R 50 50 1 1 I
+X A 4 -100 150 100 R 50 50 1 1 I
+X B 5 -100 50 100 R 50 50 1 1 I
+X + 6 -100 -50 100 R 50 50 1 1 I
+X E 7 -100 -150 100 R 50 50 1 1 I
+X D 8 -100 -250 100 R 50 50 1 1 I
+X C 9 -100 -350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,512 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:2N7002 Q3
+U 1 1 604E7BBA
+P 2650 1800
+F 0 "Q3" H 2854 1846 50  0000 L CNN
+F 1 "2N7002" H 2854 1755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 1725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 2650 1800 50  0001 L CNN
+	1    2650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 604ED765
+P 2100 1950
+F 0 "R18" H 2170 1996 50  0000 L CNN
+F 1 "10K" H 2170 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2030 1950 50  0001 C CNN
+F 3 "~" H 2100 1950 50  0001 C CNN
+	1    2100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 604EDCFB
+P 1800 1800
+F 0 "R14" V 1593 1800 50  0000 C CNN
+F 1 "1K" V 1684 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 1800 50  0001 C CNN
+F 3 "~" H 1800 1800 50  0001 C CNN
+	1    1800 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 1800 2100 1800
+Connection ~ 2100 1800
+Wire Wire Line
+	2100 1800 2450 1800
+$Comp
+L power:GND #PWR0150
+U 1 1 604EE3B6
+P 2750 2100
+F 0 "#PWR0150" H 2750 1850 50  0001 C CNN
+F 1 "GND" H 2755 1927 50  0000 C CNN
+F 2 "" H 2750 2100 50  0001 C CNN
+F 3 "" H 2750 2100 50  0001 C CNN
+	1    2750 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2100 2750 2000
+Wire Wire Line
+	2750 2100 2100 2100
+Connection ~ 2750 2100
+Wire Wire Line
+	1500 1800 1650 1800
+Wire Wire Line
+	2750 1500 2750 1600
+$Comp
+L Transistor_FET:2N7002 Q4
+U 1 1 604F3BB3
+P 2650 3050
+F 0 "Q4" H 2854 3096 50  0000 L CNN
+F 1 "2N7002" H 2854 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 2975 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 2650 3050 50  0001 L CNN
+	1    2650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 604F3BB9
+P 2100 3200
+F 0 "R19" H 2170 3246 50  0000 L CNN
+F 1 "10K" H 2170 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2030 3200 50  0001 C CNN
+F 3 "~" H 2100 3200 50  0001 C CNN
+	1    2100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 604F3BBF
+P 1800 3050
+F 0 "R15" V 1593 3050 50  0000 C CNN
+F 1 "1K" V 1684 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 3050 50  0001 C CNN
+F 3 "~" H 1800 3050 50  0001 C CNN
+	1    1800 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 3050 2100 3050
+Connection ~ 2100 3050
+Wire Wire Line
+	2100 3050 2450 3050
+$Comp
+L power:GND #PWR0151
+U 1 1 604F3BC8
+P 2750 3350
+F 0 "#PWR0151" H 2750 3100 50  0001 C CNN
+F 1 "GND" H 2755 3177 50  0000 C CNN
+F 2 "" H 2750 3350 50  0001 C CNN
+F 3 "" H 2750 3350 50  0001 C CNN
+	1    2750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3350 2750 3250
+Wire Wire Line
+	2750 3350 2100 3350
+Connection ~ 2750 3350
+Wire Wire Line
+	1500 3050 1650 3050
+Wire Wire Line
+	2750 2750 2750 2850
+$Comp
+L Transistor_FET:2N7002 Q5
+U 1 1 604F5A9F
+P 2650 4250
+F 0 "Q5" H 2854 4296 50  0000 L CNN
+F 1 "2N7002" H 2854 4205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 4175 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 2650 4250 50  0001 L CNN
+	1    2650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 604F5AA5
+P 2100 4400
+F 0 "R20" H 2170 4446 50  0000 L CNN
+F 1 "10K" H 2170 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2030 4400 50  0001 C CNN
+F 3 "~" H 2100 4400 50  0001 C CNN
+	1    2100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 604F5AAB
+P 1800 4250
+F 0 "R16" V 1593 4250 50  0000 C CNN
+F 1 "1K" V 1684 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 4250 50  0001 C CNN
+F 3 "~" H 1800 4250 50  0001 C CNN
+	1    1800 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 4250 2100 4250
+Connection ~ 2100 4250
+Wire Wire Line
+	2100 4250 2450 4250
+$Comp
+L power:GND #PWR0152
+U 1 1 604F5AB4
+P 2750 4550
+F 0 "#PWR0152" H 2750 4300 50  0001 C CNN
+F 1 "GND" H 2755 4377 50  0000 C CNN
+F 2 "" H 2750 4550 50  0001 C CNN
+F 3 "" H 2750 4550 50  0001 C CNN
+	1    2750 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4550 2750 4450
+Wire Wire Line
+	2750 4550 2100 4550
+Connection ~ 2750 4550
+Wire Wire Line
+	1500 4250 1650 4250
+Wire Wire Line
+	2750 3950 2750 4050
+$Comp
+L Transistor_FET:2N7002 Q6
+U 1 1 604FAF73
+P 2650 5450
+F 0 "Q6" H 2854 5496 50  0000 L CNN
+F 1 "2N7002" H 2854 5405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 5375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 2650 5450 50  0001 L CNN
+	1    2650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 604FAF79
+P 2100 5600
+F 0 "R21" H 2170 5646 50  0000 L CNN
+F 1 "10K" H 2170 5555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2030 5600 50  0001 C CNN
+F 3 "~" H 2100 5600 50  0001 C CNN
+	1    2100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 604FAF7F
+P 1800 5450
+F 0 "R17" V 1593 5450 50  0000 C CNN
+F 1 "1K" V 1684 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 5450 50  0001 C CNN
+F 3 "~" H 1800 5450 50  0001 C CNN
+	1    1800 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 5450 2100 5450
+Connection ~ 2100 5450
+Wire Wire Line
+	2100 5450 2450 5450
+$Comp
+L power:GND #PWR0153
+U 1 1 604FAF88
+P 2750 5750
+F 0 "#PWR0153" H 2750 5500 50  0001 C CNN
+F 1 "GND" H 2755 5577 50  0000 C CNN
+F 2 "" H 2750 5750 50  0001 C CNN
+F 3 "" H 2750 5750 50  0001 C CNN
+	1    2750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5750 2750 5650
+Wire Wire Line
+	2750 5750 2100 5750
+Connection ~ 2750 5750
+Wire Wire Line
+	1500 5450 1650 5450
+Wire Wire Line
+	2750 5150 2750 5250
+$Comp
+L Transistor_FET:2N7002 Q7
+U 1 1 6050ED79
+P 4700 1800
+F 0 "Q7" H 4904 1846 50  0000 L CNN
+F 1 "2N7002" H 4904 1755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 1725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4700 1800 50  0001 L CNN
+	1    4700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 6050ED7F
+P 4150 1950
+F 0 "R26" H 4220 1996 50  0000 L CNN
+F 1 "10K" H 4220 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4080 1950 50  0001 C CNN
+F 3 "~" H 4150 1950 50  0001 C CNN
+	1    4150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 6050ED85
+P 3850 1800
+F 0 "R22" V 3643 1800 50  0000 C CNN
+F 1 "1K" V 3734 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3780 1800 50  0001 C CNN
+F 3 "~" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 1800 4150 1800
+Connection ~ 4150 1800
+Wire Wire Line
+	4150 1800 4500 1800
+$Comp
+L power:GND #PWR0154
+U 1 1 6050ED8E
+P 4800 2100
+F 0 "#PWR0154" H 4800 1850 50  0001 C CNN
+F 1 "GND" H 4805 1927 50  0000 C CNN
+F 2 "" H 4800 2100 50  0001 C CNN
+F 3 "" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2100 4800 2000
+Wire Wire Line
+	4800 2100 4150 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	3550 1800 3700 1800
+Wire Wire Line
+	4800 1500 4800 1600
+$Comp
+L Transistor_FET:2N7002 Q8
+U 1 1 6050ED9B
+P 4700 3050
+F 0 "Q8" H 4904 3096 50  0000 L CNN
+F 1 "2N7002" H 4904 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 2975 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4700 3050 50  0001 L CNN
+	1    4700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 6050EDA1
+P 4150 3200
+F 0 "R27" H 4220 3246 50  0000 L CNN
+F 1 "10K" H 4220 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4080 3200 50  0001 C CNN
+F 3 "~" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 6050EDA7
+P 3850 3050
+F 0 "R23" V 3643 3050 50  0000 C CNN
+F 1 "1K" V 3734 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3780 3050 50  0001 C CNN
+F 3 "~" H 3850 3050 50  0001 C CNN
+	1    3850 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3050 4150 3050
+Connection ~ 4150 3050
+Wire Wire Line
+	4150 3050 4500 3050
+$Comp
+L power:GND #PWR0155
+U 1 1 6050EDB0
+P 4800 3350
+F 0 "#PWR0155" H 4800 3100 50  0001 C CNN
+F 1 "GND" H 4805 3177 50  0000 C CNN
+F 2 "" H 4800 3350 50  0001 C CNN
+F 3 "" H 4800 3350 50  0001 C CNN
+	1    4800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3350 4800 3250
+Wire Wire Line
+	4800 3350 4150 3350
+Connection ~ 4800 3350
+Wire Wire Line
+	3550 3050 3700 3050
+Wire Wire Line
+	4800 2750 4800 2850
+$Comp
+L Transistor_FET:2N7002 Q9
+U 1 1 6050EDBD
+P 4700 4250
+F 0 "Q9" H 4904 4296 50  0000 L CNN
+F 1 "2N7002" H 4904 4205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 4175 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4700 4250 50  0001 L CNN
+	1    4700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 6050EDC3
+P 4150 4400
+F 0 "R28" H 4220 4446 50  0000 L CNN
+F 1 "10K" H 4220 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4080 4400 50  0001 C CNN
+F 3 "~" H 4150 4400 50  0001 C CNN
+	1    4150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 6050EDC9
+P 3850 4250
+F 0 "R24" V 3643 4250 50  0000 C CNN
+F 1 "1K" V 3734 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3780 4250 50  0001 C CNN
+F 3 "~" H 3850 4250 50  0001 C CNN
+	1    3850 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 4250 4150 4250
+Connection ~ 4150 4250
+Wire Wire Line
+	4150 4250 4500 4250
+$Comp
+L power:GND #PWR0156
+U 1 1 6050EDD2
+P 4800 4550
+F 0 "#PWR0156" H 4800 4300 50  0001 C CNN
+F 1 "GND" H 4805 4377 50  0000 C CNN
+F 2 "" H 4800 4550 50  0001 C CNN
+F 3 "" H 4800 4550 50  0001 C CNN
+	1    4800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4550 4800 4450
+Wire Wire Line
+	4800 4550 4150 4550
+Connection ~ 4800 4550
+Wire Wire Line
+	3550 4250 3700 4250
+Wire Wire Line
+	4800 3950 4800 4050
+$Comp
+L Transistor_FET:2N7002 Q10
+U 1 1 6050EDDF
+P 4700 5450
+F 0 "Q10" H 4904 5496 50  0000 L CNN
+F 1 "2N7002" H 4904 5405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 5375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4700 5450 50  0001 L CNN
+	1    4700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 6050EDE5
+P 4150 5600
+F 0 "R29" H 4220 5646 50  0000 L CNN
+F 1 "10K" H 4220 5555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4080 5600 50  0001 C CNN
+F 3 "~" H 4150 5600 50  0001 C CNN
+	1    4150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 6050EDEB
+P 3850 5450
+F 0 "R25" V 3643 5450 50  0000 C CNN
+F 1 "1K" V 3734 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3780 5450 50  0001 C CNN
+F 3 "~" H 3850 5450 50  0001 C CNN
+	1    3850 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 5450 4150 5450
+Connection ~ 4150 5450
+Wire Wire Line
+	4150 5450 4500 5450
+$Comp
+L power:GND #PWR0157
+U 1 1 6050EDF4
+P 4800 5750
+F 0 "#PWR0157" H 4800 5500 50  0001 C CNN
+F 1 "GND" H 4805 5577 50  0000 C CNN
+F 2 "" H 4800 5750 50  0001 C CNN
+F 3 "" H 4800 5750 50  0001 C CNN
+	1    4800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5750 4800 5650
+Wire Wire Line
+	4800 5750 4150 5750
+Connection ~ 4800 5750
+Wire Wire Line
+	3550 5450 3700 5450
+Wire Wire Line
+	4800 5150 4800 5250
+Text HLabel 1500 3050 0    50   Input ~ 0
+C2
+Text HLabel 1500 1800 0    50   Input ~ 0
+C1
+Text HLabel 1500 4250 0    50   Input ~ 0
+C3
+Text HLabel 1500 5450 0    50   Input ~ 0
+C4
+Text HLabel 3550 5450 0    50   Input ~ 0
+C8
+Text HLabel 3550 4250 0    50   Input ~ 0
+C7
+Text HLabel 3550 3050 0    50   Input ~ 0
+C6
+Text HLabel 3550 1800 0    50   Input ~ 0
+C5
+Text HLabel 2750 1500 1    50   Input ~ 0
+SINK_1
+Text HLabel 2750 2750 1    50   Input ~ 0
+SINK_2
+Text HLabel 2750 3950 1    50   Input ~ 0
+SINK_3
+Text HLabel 2750 5150 1    50   Input ~ 0
+SINK_4
+Text HLabel 4800 5150 1    50   Input ~ 0
+SINK_8
+Text HLabel 4800 3950 1    50   Input ~ 0
+SINK_7
+Text HLabel 4800 2750 1    50   Input ~ 0
+SINK_6
+Text HLabel 4800 1500 1    50   Input ~ 0
+SINK_5
+$EndSCHEMATC
