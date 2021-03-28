@@ -182,16 +182,14 @@ $EndSheet
 $Comp
 L power:+12V #PWR0109
 U 1 1 604DC459
-P 9800 3050
-F 0 "#PWR0109" H 9800 2900 50  0001 C CNN
-F 1 "+12V" H 9815 3223 50  0000 C CNN
-F 2 "" H 9800 3050 50  0001 C CNN
-F 3 "" H 9800 3050 50  0001 C CNN
-	1    9800 3050
+P 9700 3050
+F 0 "#PWR0109" H 9700 2900 50  0001 C CNN
+F 1 "+12V" H 9715 3223 50  0000 C CNN
+F 2 "" H 9700 3050 50  0001 C CNN
+F 3 "" H 9700 3050 50  0001 C CNN
+	1    9700 3050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9800 3050 9900 3050
 $Comp
 L Device:R R13
 U 1 1 6051863F
@@ -613,22 +611,10 @@ Text GLabel 5950 1650 0    50   Input ~ 0
 GPIO0
 Wire Wire Line
 	5950 1650 6300 1650
-Text GLabel 5950 1850 0    50   Input ~ 0
+Text GLabel 5950 2650 0    50   Input ~ 0
 AI_1
-Text GLabel 5950 1950 0    50   Input ~ 0
-AI_2
-Text GLabel 5950 2050 0    50   Input ~ 0
-AI_3
-Text GLabel 5950 1750 0    50   Input ~ 0
+Text GLabel 5950 2550 0    50   Input ~ 0
 AI_0
-Wire Wire Line
-	5950 1750 6300 1750
-Wire Wire Line
-	6300 1850 5950 1850
-Wire Wire Line
-	5950 1950 6300 1950
-Wire Wire Line
-	6300 2050 5950 2050
 $Comp
 L Device:R R10
 U 1 1 606B6BD1
@@ -655,34 +641,22 @@ Wire Wire Line
 	4500 2750 4600 2750
 Wire Wire Line
 	4900 2750 4950 2750
-Text GLabel 5950 2150 0    50   Input ~ 0
-PB_0
 Text GLabel 5950 2250 0    50   Input ~ 0
+PB_0
+Text GLabel 5950 1950 0    50   Input ~ 0
 PB_1
-Text GLabel 5950 2350 0    50   Input ~ 0
+Text GLabel 5950 2150 0    50   Input ~ 0
 PB_2
-Text GLabel 5950 2450 0    50   Input ~ 0
+Text GLabel 5950 2050 0    50   Input ~ 0
 PB_3
-Wire Wire Line
-	5950 2150 6300 2150
-Wire Wire Line
-	6300 2250 5950 2250
-Wire Wire Line
-	5950 2350 6300 2350
-Wire Wire Line
-	6300 2450 5950 2450
-Text GLabel 7850 1950 2    50   Input ~ 0
+Text GLabel 5950 2350 0    50   Input ~ 0
 ENC_0_A
-Text GLabel 7850 2050 2    50   Input ~ 0
+Text GLabel 5950 2450 0    50   Input ~ 0
 ENC_0_B
-Text GLabel 5950 2550 0    50   Input ~ 0
+Text GLabel 5950 1750 0    50   Input ~ 0
 ENC_1_A
-Text GLabel 5950 2650 0    50   Input ~ 0
+Text GLabel 5950 1850 0    50   Input ~ 0
 ENC_1_B
-Wire Wire Line
-	5950 2550 6300 2550
-Wire Wire Line
-	6300 2650 5950 2650
 Wire Wire Line
 	7500 1950 7850 1950
 Wire Wire Line
@@ -979,17 +953,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 7500 1300 7500
 $Comp
-L Connector:Conn_01x03_Male AI_3
-U 1 1 6093EAAE
-P 7750 5250
-F 0 "AI_3" H 7858 5531 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 7858 5440 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7750 5250 50  0001 C CNN
-F 3 "~" H 7750 5250 50  0001 C CNN
-	1    7750 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x03_Male AI_1
 U 1 1 6093F0D3
 P 6800 5250
@@ -998,17 +961,6 @@ F 1 "Conn_01x03_Male" H 6908 5440 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6800 5250 50  0001 C CNN
 F 3 "~" H 6800 5250 50  0001 C CNN
 	1    6800 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male AI_2
-U 1 1 6093F7DF
-P 7750 4550
-F 0 "AI_2" H 7858 4831 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 7858 4740 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7750 4550 50  0001 C CNN
-F 3 "~" H 7750 4550 50  0001 C CNN
-	1    7750 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1023,17 +975,6 @@ F 3 "" H 7300 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0128
-U 1 1 60940EE8
-P 8250 5150
-F 0 "#PWR0128" H 8250 5000 50  0001 C CNN
-F 1 "+3V3" H 8265 5323 50  0000 C CNN
-F 2 "" H 8250 5150 50  0001 C CNN
-F 3 "" H 8250 5150 50  0001 C CNN
-	1    8250 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0129
 U 1 1 609413D0
 P 7300 5150
@@ -1042,17 +983,6 @@ F 1 "+3V3" H 7315 5323 50  0000 C CNN
 F 2 "" H 7300 5150 50  0001 C CNN
 F 3 "" H 7300 5150 50  0001 C CNN
 	1    7300 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0130
-U 1 1 6094182C
-P 8250 4450
-F 0 "#PWR0130" H 8250 4300 50  0001 C CNN
-F 1 "+3V3" H 8265 4623 50  0000 C CNN
-F 2 "" H 8250 4450 50  0001 C CNN
-F 3 "" H 8250 4450 50  0001 C CNN
-	1    8250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1077,32 +1007,6 @@ F 3 "" H 7300 5350 50  0001 C CNN
 	1    7300 5350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0133
-U 1 1 6097C9C8
-P 8250 4650
-F 0 "#PWR0133" H 8250 4400 50  0001 C CNN
-F 1 "GND" H 8255 4477 50  0000 C CNN
-F 2 "" H 8250 4650 50  0001 C CNN
-F 3 "" H 8250 4650 50  0001 C CNN
-	1    8250 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 6097CEDA
-P 8250 5350
-F 0 "#PWR0134" H 8250 5100 50  0001 C CNN
-F 1 "GND" H 8255 5177 50  0000 C CNN
-F 2 "" H 8250 5350 50  0001 C CNN
-F 3 "" H 8250 5350 50  0001 C CNN
-	1    8250 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 5150 8250 5150
-Wire Wire Line
-	7950 5350 8250 5350
 Wire Wire Line
 	7300 4450 7000 4450
 Wire Wire Line
@@ -1111,26 +1015,14 @@ Wire Wire Line
 	7300 5150 7000 5150
 Wire Wire Line
 	7000 5350 7300 5350
-Wire Wire Line
-	7950 4450 8250 4450
-Wire Wire Line
-	7950 4650 8250 4650
 Text GLabel 7100 5250 2    50   Input ~ 0
 AI_1
-Text GLabel 8050 4550 2    50   Input ~ 0
-AI_2
-Text GLabel 8050 5250 2    50   Input ~ 0
-AI_3
 Text GLabel 7100 4550 2    50   Input ~ 0
 AI_0
 Wire Wire Line
 	7000 4550 7100 4550
 Wire Wire Line
 	7000 5250 7100 5250
-Wire Wire Line
-	8050 4550 7950 4550
-Wire Wire Line
-	7950 5250 8050 5250
 $Comp
 L Connector:Conn_01x03_Male AI_0
 U 1 1 6093D8A0
@@ -1468,17 +1360,6 @@ F 3 "" H 2850 1050 50  0001 C CNN
 	1    2850 1050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Interface_USB:CP2104 U1
-U 1 1 60543E90
-P 2850 2100
-F 0 "U1" H 3150 1100 50  0000 C CNN
-F 1 "CP2104" H 3250 1000 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 3000 1150 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2104.pdf" H 2300 3350 50  0001 C CNN
-	1    2850 2100
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	4300 3950 11200 3950
 Wire Notes Line
@@ -1547,7 +1428,7 @@ F 1 "Conn_01x05_Female" H 1278 4035 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 1250 4100 50  0001 C CNN
 F 3 "~" H 1250 4100 50  0001 C CNN
 	1    1250 4100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Notes Line
 	2050 5450 500  5450
@@ -1778,17 +1659,6 @@ F 3 "~" H 10150 6250 50  0001 C CNN
 	1    10150 6250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Andrew_van_dam_logo:LOGO #G1
-U 1 1 60FD3367
-P 9200 6200
-F 0 "#G1" H 9200 6001 60  0001 C CNN
-F 1 "LOGO" H 9200 6399 60  0001 C CNN
-F 2 "" H 9200 6200 50  0001 C CNN
-F 3 "" H 9200 6200 50  0001 C CNN
-	1    9200 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 2750 4950 2850
 $Comp
@@ -2015,4 +1885,50 @@ Wire Wire Line
 	4900 5150 4950 5150
 Wire Wire Line
 	4900 5550 4950 5550
+$Comp
+L Interface_USB:CP2104 U1
+U 1 1 60543E90
+P 2850 2100
+F 0 "U1" H 3150 1100 50  0000 C CNN
+F 1 "CP2104" H 3250 1000 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 3000 1150 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2104.pdf" H 2300 3350 50  0001 C CNN
+	1    2850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2650 9700 2650
+Wire Wire Line
+	9700 2650 9700 3050
+Wire Wire Line
+	5950 1750 6300 1750
+Wire Wire Line
+	6300 1850 5950 1850
+Wire Wire Line
+	5950 1950 6300 1950
+Wire Wire Line
+	6300 2050 5950 2050
+Wire Wire Line
+	5950 2150 6300 2150
+Wire Wire Line
+	6300 2250 5950 2250
+Wire Wire Line
+	5950 2350 6300 2350
+Wire Wire Line
+	6300 2450 5950 2450
+Wire Wire Line
+	5950 2550 6300 2550
+Wire Wire Line
+	6300 2650 5950 2650
+$Comp
+L Andrew_van_dam_logo:LOGO g1
+U 1 1 60FD3367
+P 9200 6200
+F 0 "g1" H 9200 6001 60  0001 C CNN
+F 1 "LOGO" H 9200 6399 60  0001 C CNN
+F 2 "Andrew_van_dam_logo:Andrew_van_dam_logo_12mm" H 9200 6200 50  0001 C CNN
+F 3 "" H 9200 6200 50  0001 C CNN
+	1    9200 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
